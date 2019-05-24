@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 
 * git checkout -f retorna arquivos excluidos que ainda não foi feito commit# alpha-blog
+# alpha-blog
