@@ -1,27 +1,23 @@
-# README
+### Aplha Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`rails generate migration create_articles` gera uma migração
 
-Things you may want to cover:
+`rake db:migrate` executa a migração
 
-* Ruby version
+`rake db:rollback` desfaz uma migração
 
-* System dependencies
+_Quando esquecer algo criar migration para adicionar novas colunas_
 
-* Configuration
+`rails g migration add_description_to_articles` add nova coluna description
 
-* Database creation
+_Para testar o ActiveRecord entrar no **rails console** e fazer consultas_
 
-* Database initialization
+`Article.all, Article, article = Article.new, article.save`
 
-* How to run the test suite
+_Gerar dados em massa_
 
-* Services (job queues, cache servers, search engines, etc.)
+`article = Article.new(title: "This is my second article", description: "This is my second description")`
 
-* Deployment instructions
+Metodo **create** realiza uma transação completa  com o banco de dados
 
-* ...
-
-* git checkout -f retorna arquivos excluidos que ainda não foi feito commit# alpha-blog
-# alpha-blog
+`Article.create(title: "This is my third title", description: "This is my third description")`
