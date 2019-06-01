@@ -34,6 +34,12 @@ article.save! - salva um novo article
 
 article.create! - salva um novo article e ja faz o commit
 
+article.update! - atualiza um novo article
+
+article.destroy! - remove um article
+
 reload! recarrega dados do console
 
 article.errors.full_messages - lista os erros ao salvar o objeto article
+
+render plain: params[:article].inspect
