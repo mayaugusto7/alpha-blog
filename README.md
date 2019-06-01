@@ -21,3 +21,19 @@ _Gerar dados em massa_
 Metodo **create** realiza uma transação completa  com o banco de dados
 
 `Article.create(title: "This is my third title", description: "This is my third description")`
+
+# _Console Rails_
+
+rails console - entra no console irb
+
+Article.all - lista todos os articles
+
+article = Article.find(1) - consulta um article pelo id
+
+article.save! - salva um novo article
+
+article.create! - salva um novo article e ja faz o commit
+
+reload! recarrega dados do console
+
+article.errors.full_messages - lista os erros ao salvar o objeto article
