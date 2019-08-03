@@ -66,3 +66,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
