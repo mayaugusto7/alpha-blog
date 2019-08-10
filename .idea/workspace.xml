@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +192,7 @@
       <workItem from="1565446799425" duration="95000" />
       <workItem from="1565447570403" duration="2099000" />
       <workItem from="1565449863228" duration="356000" />
-      <workItem from="1565452173180" duration="3043000" />
+      <workItem from="1565452173180" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1558740332173</created>
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565462423452</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Style show page">
+      <created>1565463213685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565463213685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -295,6 +301,7 @@
     <MESSAGE value="Editando e apagando os artigos" />
     <MESSAGE value="Fix create, add flash and erros messages, create show" />
     <MESSAGE value="Style messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style messages" />
+    <MESSAGE value="Style show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style show page" />
   </component>
 </project>
