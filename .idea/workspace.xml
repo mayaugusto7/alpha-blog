@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="Fix create, add flash and erros messages, create show">
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_errors.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/alpha-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alpha-blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +193,7 @@
       <workItem from="1565446799425" duration="95000" />
       <workItem from="1565447570403" duration="2099000" />
       <workItem from="1565449863228" duration="356000" />
-      <workItem from="1565452173180" duration="2212000" />
+      <workItem from="1565452173180" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1558740332173</created>
@@ -256,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559430600574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Style messages">
+      <created>1565462423451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565462423452</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -292,6 +294,7 @@
     <MESSAGE value="Criando os Artigos" />
     <MESSAGE value="Editando e apagando os artigos" />
     <MESSAGE value="Fix create, add flash and erros messages, create show" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix create, add flash and erros messages, create show" />
+    <MESSAGE value="Style messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style messages" />
   </component>
 </project>
