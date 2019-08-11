@@ -12,6 +12,8 @@ _Quando esquecer algo criar migration para adicionar novas colunas_
 
 `rails generate migration add_user_id_to_articles` add nova coluna user_id
 
+`rails g migration add_password_digest_to_users`
+
 _Para testar o ActiveRecord entrar no **rails console** e fazer consultas_
 
 `Article.all, Article, article = Article.new, article.save`
