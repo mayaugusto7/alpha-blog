@@ -10,6 +10,8 @@ _Quando esquecer algo criar migration para adicionar novas colunas_
 
 `rails g migration add_description_to_articles` add nova coluna description
 
+`rails generate migration add_user_id_to_articles` add nova coluna user_id
+
 _Para testar o ActiveRecord entrar no **rails console** e fazer consultas_
 
 `Article.all, Article, article = Article.new, article.save`
@@ -43,3 +45,8 @@ reload! recarrega dados do console
 article.errors.full_messages - lista os erros ao salvar o objeto article
 
 render plain: params[:article].inspect
+
+# _Debugger_
+
+colocar a flag *debugger* no codigo, permite debugar aplicacao em
+tempo real com byebug.
