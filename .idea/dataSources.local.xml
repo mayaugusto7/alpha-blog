@@ -13,5 +13,10 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="Rails alpha-blog: test" uuid="347fc56e-8075-45be-96a7-314966ba3838">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

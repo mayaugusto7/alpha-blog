@@ -53,6 +53,8 @@ render plain: params[:article].inspect
 colocar a flag *debugger* no codigo, permite debugar aplicacao em
 tempo real com byebug.
 
+Debug em tempo real <%= debug(params) if Rails.env.development? %>
+
 # _Heroku Commands_
 
 git push heroku master
