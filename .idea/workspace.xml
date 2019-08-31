@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="Style index page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/categories_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/categories_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/create_categories_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/create_categories_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_get_new: alpha-blog">
+  <component name="RunManager" selected="Rails.Development: alpha-blog">
     <configuration name="Development: alpha-blog" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="alpha-blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -308,7 +307,7 @@
       <workItem from="1566134768269" duration="22000" />
       <workItem from="1566134905155" duration="1528000" />
       <workItem from="1566137122986" duration="2812000" />
-      <workItem from="1567252661229" duration="3441000" />
+      <workItem from="1567252661229" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1558740332173</created>
