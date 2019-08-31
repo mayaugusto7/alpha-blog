@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ArtcileCategoriesTest < Test::Unit::TestCase
+class ArticleCategoriesTest < ActiveSupport::TestCase
   def setup
     # Do nothing
   end
