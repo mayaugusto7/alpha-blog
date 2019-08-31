@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/integration/list_categories_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/cateories_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/categories_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/create_categories_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/create_categories_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: alpha-blog">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'ListCategoriesTest': alpha-blog">
     <configuration name="Development: alpha-blog" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="alpha-blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -232,6 +234,31 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="Run test 'ListCategoriesTest': alpha-blog" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="alpha-blog" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/list_categories_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_should_get_show: alpha-blog" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="alpha-blog" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -266,11 +293,13 @@
       <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CategoriesControllerTest': alpha-blog" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_show: alpha-blog" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CreateCategoriesTest': alpha-blog" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'ListCategoriesTest': alpha-blog" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CategoriesControllerTest': alpha-blog" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'ListCategoriesTest': alpha-blog" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CreateCategoriesTest': alpha-blog" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CategoriesControllerTest': alpha-blog" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_show: alpha-blog" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CategoryTest': alpha-blog" />
       </list>
@@ -333,7 +362,8 @@
       <workItem from="1566069560903" duration="5669000" />
       <workItem from="1566134768269" duration="22000" />
       <workItem from="1566134905155" duration="1528000" />
-      <workItem from="1566137122986" duration="2777000" />
+      <workItem from="1566137122986" duration="2812000" />
+      <workItem from="1567252661229" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1558740332173</created>
