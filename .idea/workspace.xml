@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048539c0-fe1a-4982-b73f-3c2448e27f27" name="Default Changelist" comment="Style index page">
-      <change afterPath="$PROJECT_DIR$/app/views/categories/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
